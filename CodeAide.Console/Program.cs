@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeAide.TestHelper.Console;
+using System;
 
 namespace CodeAide.Console
 {
@@ -6,7 +7,8 @@ namespace CodeAide.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestDateHelper dateTest = new TestDateHelper();
+            dateTest.GetAge();
         }
     }
 }

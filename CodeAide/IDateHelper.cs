@@ -4,7 +4,8 @@ using System.Text;
 
 namespace CodeAide
 {
-    interface IDateHelper
+    public interface IDateHelper
     {
+        (byte Years, byte Months, byte Days) GetAge(DateTime dateOfBirth);
     }
 }
