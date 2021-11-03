@@ -6,9 +6,10 @@ namespace DesignPattern.Console
     {
         static void Main(string[] args)
         {
-            TestFactoryPattern.Test();
+            //TestFactoryPattern.Test();
             //TestAbsFactoryPattern.Test();
             //TestSingletonPattern.Test();
+            TestPrototypePattern.Test();
         }
     }
 }

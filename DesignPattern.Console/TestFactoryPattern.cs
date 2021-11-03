@@ -11,7 +11,7 @@ namespace DesignPattern.Console
     {
         public static void Test()
         {
-            CardFactory factory = null;
+            CardFactory factory;
             byte cardType = 1;
             while (cardType >= 0)
             {
