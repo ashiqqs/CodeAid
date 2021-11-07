@@ -9,7 +9,8 @@ namespace DesignPattern.Console
             //TestFactoryPattern.Test();
             //TestAbsFactoryPattern.Test();
             //TestSingletonPattern.Test();
-            TestPrototypePattern.Test();
+            //TestPrototypePattern.Test();
+            TestDecoratorPattern.Test();
         }
     }
 }
