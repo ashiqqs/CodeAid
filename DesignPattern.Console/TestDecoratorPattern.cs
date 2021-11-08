@@ -12,7 +12,7 @@ namespace DesignPattern.Console
         {
             Base tea = new TeaBase();
             WriteLine(tea.OrderDetail());
-
+             
             tea = new GingerTea(tea);
             WriteLine(tea.OrderDetail());
 
@@ -20,7 +20,8 @@ namespace DesignPattern.Console
             WriteLine(tea.OrderDetail());
 
             tea = new SugerFree(new CoffeeTea(new GingerTea(new TeaBase())));
-            WriteLine(tea.OrderDetail()); //OUTPUT: Getting tea + Ginger + coffee flavour + sugger free
+            WriteLine(tea.OrderDetail()); 
+            //OUTPUT: Getting tea + Ginger + coffee flavour + sugger free
         }
     }
 }
